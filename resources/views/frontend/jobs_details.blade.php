@@ -90,9 +90,9 @@
                                                 {{-- <span style="float:right"> Posted: {{$job->created_at->diffForHumans()}}</span> --}}
                                                 <h6 style="color:#0099ff">{{$job->title}}</h6> 
                                                 <p style="color:#0099ff">{{$job->company}}</p>
-                                                Location:  <span  class="p-1" style="border-radius: 4px; background:#9ab6c957; color:#5f5a5a"> {{$jo->location}}</span>  
+                                                Location:  <span  class="p-1" style="border-radius: 4px; background:#9ab6c957; color:#5f5a5a"> {{$job->location}}</span>  
                                                 Job Type: <span class="p-1" style="border-radius: 4px; background:#9ab6c957; color:#5f5a5a"> {{$job->job_type}}</span>  
-                                                 Salary: <span class="p-1" style="border-radius: 4px; background:#9ab6c957; color:#5f5a5a"> {{$jo->salary_range}} </span> <br>
+                                                 Salary: <span class="p-1" style="border-radius: 4px; background:#9ab6c957; color:#5f5a5a"> {{$job->salary_range}} </span> <br>
                                                <span> Job ID: {{$job->industry->name}}</span> <br>
                                                <hr>
                                                <span> {!!$job->job_details !!} <br><br>  
